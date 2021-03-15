@@ -9,11 +9,11 @@
   }
 }
 
-.contacts {
+.footer-contacts {
+  &__info {
   margin-top: 20px;
-}
+  }
 
-.contacts-info {
   &__item:not(:first-child) {
   margin-top: 9px;
   }

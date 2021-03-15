@@ -46,6 +46,11 @@
   &__btn-close:focus {
     fill: $blue-text;
   }
+
+  &__icon {
+    width: 18px;
+    height: 18px;
+  }
 }
 .form {
   &__header {

@@ -3,10 +3,12 @@
   padding-bottom: 94px;
 }
 /* Для конопок */
-.nav-examples {
+.filters {
+  &__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  }
 
   &__item:not(:first-child) {
   margin-left: 8px;
@@ -41,10 +43,12 @@
 
 /* Для карточек */
 .examples {
+  &__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  }
 
   &__item {
   width: 370px;
@@ -60,7 +64,7 @@
   overflow: hidden;
   }
 
-  &__name {
+  &__box {
   padding: 20px 24px;
   }
 

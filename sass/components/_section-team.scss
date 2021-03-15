@@ -1,25 +1,24 @@
-.section-team {
+.team {
   background-color: $background-color-teams;
-}
 
-.section-team__container {
+  &__container {
   padding: 94px 15px;  
-}
+  }
 
-.section-team__title {
+  &__title {
   color: $black-text;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-}
+  }
 
-.team {
+  &__list {
   display: flex;
   margin-top: 50px;
-
-  &__tumb {
+  }
+  &__item {
   width: 270px;
   background-color: $white-text;
   margin-left: 30px;
@@ -28,11 +27,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
-  &__tumb:first-child {
+  &__item:first-child {
   margin-left: 0;
   }
 
-  &__cart {
+  &__box {
   padding: 30px;
   }
 
