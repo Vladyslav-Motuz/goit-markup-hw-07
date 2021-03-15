@@ -1,0 +1,45 @@
+.advant__container {
+  padding: 94px 15px;
+}
+.advantages {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+  width: 270px;
+  margin-left: 30px;
+  }
+
+  &__item:first-child {
+  margin-left: 0px;
+  }
+
+  &__icon {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: $background-color-teams;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  &__title {
+  color: $black-text;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  }
+
+  &__text {
+  color: $gray-text;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  }
+}
